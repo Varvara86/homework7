@@ -1,0 +1,174 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.panel {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.col {
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.333333333333333%;
+}
+
+.col-2 {
+    width: 16.66666666666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-6 {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    margin: 0 -15px;
+    padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.category {
+    list-style: none;
+    padding: 0;
+}
+
+.category li {
+    display: inline-block;
+}
+
+.category li+li:before {
+    content: ',';
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.article {
+    text-align: center;
+}
+
+.h1 {
+    color: #0b6890;
+    font-size: 55px;
+}
+
+.paragraf {
+    color: #313131;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.category {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #c0bebe;
+}
+
+.article_video {
+    margin-top: 25px;
+    width: 600px;
+    height: 350px;
+}
+.fab {
+    padding-right: 20px;
+}
+.paragraf1 {
+    margin-left: 90px;
+    width: 470px;
+    line-height: 1.9;
+    color: #a7a7a7;
+}
+
+.title {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+    margin-right: -30px;
+}
+.social {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 15px;
+}
+.social li {
+    display: inline-block;
+}
+.arrow_left {
+    text-align: left;
+}
+.previous {
+    padding-left: 38px;
+    font-size: 18px;
+    color: #d4d3d3;
+}
+.arrow_right {
+    text-align: right;
+}
+.next {
+    padding-right: 50px;
+    font-size: 18px;
+    color: #d4d3d3;
+}
+.button {
+    width: 220px;
+    height: 50px;
+    background-color: white;
+}
+input {
+    text-transform: uppercase;
+    color: #0b6890;
+}
+.footer {
+    background: url(./Images/bg--footer.png);
+    margin-left: -5px;
+    margin-right: -5px;
+    height: 400px;
+}
+.logo_footer {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
